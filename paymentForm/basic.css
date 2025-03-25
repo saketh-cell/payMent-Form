@@ -1,0 +1,79 @@
+body {
+    background-image: url(paymentwallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+}
+
+.container {
+    width: 320px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(28, 27, 27, 0.3); 
+}
+
+h2 {
+    margin-top: 8px;
+    text-align: center;
+    color: white; 
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: white; 
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;
+    background-color: transparent;
+    color: black;
+    outline: none;
+    font-size: 16px;
+}
+
+input::placeholder {
+    color: rgba(25, 21, 21, 0.6); 
+}
+.input:focus,.input:valid{
+    background-color: transparent !important;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+.submit-btn:hover {
+    background-color: rgba(255, 255, 255, 0.4); 
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 360px;
+        height: 437px;
+        border: none;
+        box-shadow: 0 0 10px rgba(135, 206, 250, 0.6); 
+    }
+}
